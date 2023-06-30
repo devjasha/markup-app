@@ -29,7 +29,7 @@ export default function MarkdownEditor() {
   };
 
   const handleClickForLink = () => {
-    const newText = "[ ]( )";
+    const newText = "[ ](https:// )";
     setMarkdown(markdown + "\n" + newText);
   };
 
